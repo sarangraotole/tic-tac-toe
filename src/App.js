@@ -59,7 +59,15 @@ export default function App() {
 
   return (
     <div className="app-header">
-      <p className="heading-text">Tic Tac Toe</p>
+      <p className="fc-aqua fw-600">
+        ProTech Fundas <br /> https://www.instagram.com/protechfunda_s/
+      </p>
+      <p className="heading-text">
+        Tic Tac Toe &nbsp; &nbsp;
+        <button className="clear-button" onClick={clearGame}>
+          Clear
+        </button>
+      </p>
       <div className="row jc-center">
         <SquareComponent
           className="b-bottom-right"
@@ -110,11 +118,6 @@ export default function App() {
           onClick={() => onSquareClick(8)}
         />
       </div>
-      <button className="clear-button" onClick={clearGame}>
-        Clear
-      </button>
-      <p className="fc-aqua fw-600">ProTech Fundas</p>
-      https://www.instagram.com/protechfunda_s/
     </div>
   );
 }
