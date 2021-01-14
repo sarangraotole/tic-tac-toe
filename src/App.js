@@ -113,6 +113,8 @@ export default function App() {
       <button className="clear-button" onClick={clearGame}>
         Clear
       </button>
+      <p className="fc-aqua fw-600">ProTech Fundas</p>
+      https://www.instagram.com/protechfunda_s/
     </div>
   );
 }
