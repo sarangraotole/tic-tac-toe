@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 import SquareComponent from "./SquareComponent";
-const initialState = ["", "", "", "", "", "", "", "", ""];
+const initialState = ["", "", "", "", "", "", "", "", "", ""];
 
 export default function App() {
   const [gameState, updateGameState] = useState(initialState);
@@ -9,7 +9,7 @@ export default function App() {
 
   const onSquareClick = (index) => {
     let strings = Array.from(gameState);
-    // if (strings[index]) return;
+    if (strings[index]) return;
     strings[index] = isXChance ? "X" : "0";
     updateIsXChance(!isXChance);
     updateGameState(strings);
@@ -23,7 +23,7 @@ export default function App() {
     let winner = checkWinner();
     if (winner) {
       clearGame();
-      alert(`Ta da ! ${winner} won the Game !`);
+      alert(`Yayy ! ${winner} won the Game !`);
     }
   }, [gameState]);
 

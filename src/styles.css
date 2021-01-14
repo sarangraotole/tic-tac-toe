@@ -42,7 +42,7 @@ code {
 }
 
 .fc-aqua {
-  color: #1cdbf5;
+  color: #f51c1c;
 }
 
 .fc-white {
@@ -68,16 +68,16 @@ code {
 }
 
 .b-bottom-right {
-  border-right: 15px solid #1cdbf5;
-  border-bottom: 15px solid #1cdbf5;
+  border-right: 15px solid #f51c1c;
+  border-bottom: 15px solid #f51c1c;
 }
 
 .b-bottom {
-  border-bottom: 15px solid #1cdbf5;
+  border-bottom: 15px solid #f51c1c;
 }
 
 .b-right {
-  border-right: 15px solid #1cdbf5;
+  border-right: 15px solid #f51c1c;
 }
 
 .clear-button {
@@ -106,16 +106,16 @@ code {
   }
 
   .b-bottom-right {
-    border-right: 10px solid #1cdbf5;
-    border-bottom: 10px solid #1cdbf5;
+    border-right: 10px solid #f51c1c;
+    border-bottom: 10px solid #f51c1c;
   }
 
   .b-bottom {
-    border-bottom: 10px solid #1cdbf5;
+    border-bottom: 10px solid #f51c1c;
   }
 
   .b-right {
-    border-right: 10px solid #1cdbf5;
+    border-right: 10px solid #f51c1c;
   }
 
   .clear-button {
